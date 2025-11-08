@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "touhoupixelcanteen",
+  "version": "${version}",
+  "name": "幻雀妖",
+  "description": "一个模拟经营与美食模组",
+  "authors": [
+    "你的名字"
+  ],
+  "contact": {
+    "homepage": "https://nyauru.cn/",
+    "sources": "https://github.com/Aurora4123/TouhouPixelCanteen",
+    "issues": "https://github.com/Aurora4123/TouhouPixelCanteen/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/touhoupixelcanteen/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.nyauru.touhoupixelcanteen.fabric.TouhoupixelcanteenFabric"
+    ],
+    "client": [
+      "net.nyauru.touhoupixelcanteen.fabric.TouhoupixelcanteenFabricClient"
+    ]
+  },
+  "mixins": [
+    "touhoupixelcanteen.mixins.json"
+  ]
+}

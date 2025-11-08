@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "touhoupixelcanteen",
+  "version": "${version}",
+  "name": "TouhouPixelCanteen",
+  "description": "",
+  "authors": [
+    ""
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/touhoupixelcanteen/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.nyauru.touhoupixelcanteen.fabric.TouhoupixelcanteenFabric"
+    ],
+    "client": [
+      "net.nyauru.touhoupixelcanteen.fabric.client.TouhoupixelcanteenFabricClient"
+    ]
+  },
+  "mixins": [
+    "touhoupixelcanteen.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
