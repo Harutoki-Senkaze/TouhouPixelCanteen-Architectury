@@ -27,6 +27,14 @@ public class ModTooltips {
             components.add(Component.translatable("tooltip.touhoupixelcanteen.chili_pepper")
                     .withStyle(ChatFormatting.WHITE)); //可以修改tooltip的颜色了，可用mc预定义颜色
         }
+        if (stack.getItem() == ModItems.CHILI_PEPPER_SEED.get()) {
+            components.add(Component.translatable("tooltip.touhoupixelcanteen.chili_pepper_seed")
+                    .withStyle(ChatFormatting.WHITE));
+        }
+        if (stack.getItem() == net.nyauru.l2.register.Items.RAW_LAMPREY.get()) {
+            components.add(Component.translatable("tooltip.touhoupixelcanteen.raw_lamprey")
+                    .withStyle(ChatFormatting.WHITE));
+        }
 
         //原版物品
         if (stack.getItem() == Items.CARROT) {

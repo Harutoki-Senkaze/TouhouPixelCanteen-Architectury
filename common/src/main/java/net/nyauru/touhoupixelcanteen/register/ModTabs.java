@@ -15,6 +15,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.nyauru.l2.register.Items;
 import net.nyauru.touhoupixelcanteen.Touhoupixelcanteen;
 
 public class ModTabs {
@@ -29,7 +30,19 @@ public class ModTabs {
                     .icon(() -> new ItemStack(ModItems.CHILI_PEPPER.get()))
                     .displayItems((parameters, output) -> {
                         //在这填充物品
-                        output.accept(ModItems.CHILI_PEPPER.get());
+                        output.accept(ModItems.CHILI_PEPPER.get()); //辣椒
+                        output.accept(ModItems.CHILI_PEPPER_SEED.get()); //辣椒种子
+                    })
+                    .build()
+    );
+    public static final RegistrySupplier<CreativeModeTab> CREATIVE_TAB_YH = TABS.register(
+            "yh_tab",
+            () -> CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0)
+                    .title(Component.translatable("tab.touhoupixelcanteen.youkaishomecoming"))
+                    .icon(() -> new ItemStack(Items.RAW_LAMPREY.get()))
+                    .displayItems((parameters, output) -> {
+                        //在这填充物品
+                        output.accept(Items.RAW_LAMPREY.get());
                     })
                     .build()
     );

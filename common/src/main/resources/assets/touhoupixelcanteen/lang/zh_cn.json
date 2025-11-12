@@ -1,12 +1,17 @@
 {
   "重要提示": "请按英文首字母顺序来排列，先为类型（如tab），后为首字母（如chili_pepper），方便后续整理，中文翻译也严格按照英文顺序排序",
   "tab.touhoupixelcanteen.main": "幻雀妖",
+  "tab.touhoupixelcanteen.youkaishomecoming": "幻雀妖:妖飨宴",
 
   "item.touhoupixelcanteen.chili_pepper": "辣椒",
+  "item.touhoupixelcanteen.chili_pepper_seed": "辣椒种子",
+  "item.touhoupixelcanteen.raw_lamprey": "生八目鳗",
 
   "block.touhoupixelcanteen.chili_pepper_block": "辣椒植株",
 
   "tooltip.touhoupixelcanteen.chili_pepper":"用于增加辣味的食材，评价非常两极。",
+  "tooltip.touhoupixelcanteen.chili_pepper_seed":"用于种植辣椒的种子，在普通耕地上就可以种植",
+  "tooltip.touhoupixelcanteen.raw_lamprey":"一种洄游性海鱼，但却在幻想乡的河流湖泊随处可见。",
 
   "tooltip.minecraft.carrot": "人里农田产的胡萝卜，较为常见。",
   "tooltip.minecraft.kelt": "不知道从哪里流入的外来食材，较为常见。",

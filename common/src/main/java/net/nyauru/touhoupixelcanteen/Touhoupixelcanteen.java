@@ -19,7 +19,9 @@ public final class Touhoupixelcanteen {
     public static void init() {
         //初始化物品与相应方块
         ModBlocks.BLOCKS.register();
+        net.nyauru.l2.register.Blocks.BLOCKS.register();
         ModItems.ITEMS.register();
+        net.nyauru.l2.register.Items.ITEMS.register();
         //导入创造物品栏
         ModTabs.TABS.register();
         //初始化tooltip
