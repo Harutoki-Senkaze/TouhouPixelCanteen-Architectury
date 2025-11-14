@@ -6,14 +6,22 @@
   "item.touhoupixelcanteen.chili_pepper": "辣椒",
   "item.touhoupixelcanteen.chili_pepper_seed": "辣椒种子",
   "item.touhoupixelcanteen.raw_lamprey": "生八目鳗",
+  "item.touhoupixelcanteen.raw_lamprey_fillet": "生八目鳗片",
+  "item.touhoupixelcanteen.raw_tuna": "生金枪鱼",
   "item.touhoupixelcanteen.roasted_lamprey": "烤八目鳗",
+  "item.touhoupixelcanteen.roasted_lamprey_fillet": "烤八目鳗片",
+  "item.touhoupixelcanteen.seared_tuna": "香煎金枪鱼",
 
   "block.touhoupixelcanteen.chili_pepper_block": "辣椒植株",
 
   "tooltip.touhoupixelcanteen.chili_pepper":"用于增加辣味的食材，评价非常两极。",
   "tooltip.touhoupixelcanteen.chili_pepper_seed":"用于种植辣椒的种子，在普通耕地上就可以种植",
   "tooltip.touhoupixelcanteen.raw_lamprey":"一种洄游性海鱼，但却在幻想乡的河流湖泊随处可见。",
+  "tooltip.touhoupixelcanteen.raw_lamprey_fillet":"一种洄游性海鱼，但却在幻想乡的河流湖泊随处可见，这是它的一部分。",
+  "tooltip.touhoupixelcanteen.raw_tuna":"一种珍贵的海洋鱼类，营养丰富味道鲜美，同时也价格不菲",
   "tooltip.touhoupixelcanteen.roasted_lamprey": "本店招牌。为了打破红灯笼店就是烤鸟肉店的成见，特意选择了对夜盲症有奇效的八目鳗，据说在过去还被视作珍宝。",
+  "tooltip.touhoupixelcanteen.roasted_lamprey_fillet":"专为胃口小但又想品尝本店招牌菜的顾客而生",
+  "tooltip.touhoupixelcanteen.seared_tuna":"高端的食材往往只需要最朴素的烹饪方式",
 
   "tooltip.minecraft.carrot": "人里农田产的胡萝卜，较为常见。",
   "tooltip.minecraft.kelt": "不知道从哪里流入的外来食材，较为常见。",

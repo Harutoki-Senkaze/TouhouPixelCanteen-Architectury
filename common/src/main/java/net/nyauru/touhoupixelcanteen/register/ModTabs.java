@@ -44,6 +44,10 @@ public class ModTabs {
                         //在这填充物品
                         output.accept(Items.RAW_LAMPREY.get());
                         output.accept(Items.ROASTED_LAMPREY.get());
+                        output.accept(Items.RAW_LAMPREY_FILLET.get());
+                        output.accept(Items.RAW_TUNA.get());
+                        output.accept(Items.ROASTED_LAMPREY_FILLET.get());
+                        output.accept(Items.SEARED_TUNA.get());
                     })
                     .build()
     );

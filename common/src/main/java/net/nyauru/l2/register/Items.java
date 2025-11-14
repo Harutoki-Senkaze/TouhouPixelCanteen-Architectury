@@ -61,7 +61,7 @@ public class Items {
                     )
             ));
 
-    public static final RegistrySupplier<Item>ROASTED_LAMPREY=
+    public static final RegistrySupplier<Item> ROASTED_LAMPREY =
             ITEMS.register("roasted_lamprey",() -> new Item(new Item.Properties()
                     .food(new FoodProperties.Builder()
                             .nutrition(10)
@@ -69,7 +69,49 @@ public class Items {
                             .effect(new MobEffectInstance(MobEffects.NIGHT_VISION, 2400, 0), 1)
                             .build()
                     )
-                    .stacksTo(64)
+                    .stacksTo(64)//设置堆叠数量
+            ));
+
+    public static final RegistrySupplier<Item> RAW_LAMPREY_FILLET =
+            ITEMS.register("raw_lamprey_fillet", () -> new Item(new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .nutrition(1)
+                            .saturationModifier(0.3F)
+                            .effect(new MobEffectInstance(MobEffects.NIGHT_VISION, 1800, 0), 0.5f)
+                            .fast()
+                            .build()
+                    )
+            ));
+
+    public static final RegistrySupplier<Item> RAW_TUNA =
+            ITEMS.register("raw_tuna",() -> new Item(new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .nutrition(9)
+                            .saturationModifier(0.3F)
+                            .effect(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 800, 0), 0.3f)
+                            .build()
+                    )
+            ));
+
+    public static final RegistrySupplier<Item> ROASTED_LAMPREY_FILLET =
+            ITEMS.register("roasted_lamprey_fillet", () -> new Item(new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .nutrition(6)
+                            .saturationModifier(0.8F)
+                            .effect(new MobEffectInstance(MobEffects.NIGHT_VISION, 1800, 0), 1)
+                            .fast()
+                            .build()
+                    )
+            ));
+
+    public static final RegistrySupplier<Item> SEARED_TUNA =
+            ITEMS.register("seared_tuna",() -> new Item(new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .nutrition(12)
+                            .saturationModifier(0.8F)
+                            .effect(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 800, 0), 0.4f)
+                            .build()
+                    )
             ));
 
     public static Item.Properties basicItem() {

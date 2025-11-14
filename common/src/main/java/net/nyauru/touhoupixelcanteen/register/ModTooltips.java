@@ -39,6 +39,23 @@ public class ModTooltips {
             components.add(Component.translatable("tooltip.touhoupixelcanteen.roasted_lamprey")
                     .withStyle(ChatFormatting.WHITE));
         }
+        if (stack.getItem() == net.nyauru.l2.register.Items.RAW_LAMPREY_FILLET.get()) {
+            components.add(Component.translatable("tooltip.touhoupixelcanteen.raw_lamprey_fillet")
+                    .withStyle(ChatFormatting.WHITE));
+        }
+        if (stack.getItem() == net.nyauru.l2.register.Items.RAW_TUNA.get()) {
+            components.add(Component.translatable("tooltip.touhoupixelcanteen.raw_tuna")
+                    .withStyle(ChatFormatting.WHITE));
+        }
+        if (stack.getItem() == net.nyauru.l2.register.Items.ROASTED_LAMPREY_FILLET.get()) {
+            components.add(Component.translatable("tooltip.touhoupixelcanteen.roasted_lamprey_fillet")
+                    .withStyle(ChatFormatting.WHITE));
+        }
+        if (stack.getItem() == net.nyauru.l2.register.Items.SEARED_TUNA.get()) {
+            components.add(Component.translatable("tooltip.touhoupixelcanteen.seared_tuna")
+                    .withStyle(ChatFormatting.WHITE));
+        }
+
 
         //原版物品
         if (stack.getItem() == Items.CARROT) {
