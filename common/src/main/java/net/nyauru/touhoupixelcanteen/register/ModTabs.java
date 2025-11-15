@@ -35,6 +35,7 @@ public class ModTabs {
                     })
                     .build()
     );
+    //归家主栏
     public static final RegistrySupplier<CreativeModeTab> CREATIVE_TAB_YH = TABS.register(
             "yh_tab",
             () -> CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0)
@@ -43,6 +44,16 @@ public class ModTabs {
                     .displayItems((parameters, output) -> {
                         //在这填充物品
                         output.accept(Items.RAW_LAMPREY.get());
+                        output.accept(Items.RAW_TUNA_SLICE.get());
+                        output.accept(Items.SEARED_TUNA_SLICE.get());
+                        output.accept(Items.OTORO.get());
+                        output.accept(Items.CRAB.get());
+                        output.accept(Items.STEAMED_CRAB.get());
+                        output.accept(Items.CRAB_MEAT.get());
+                        output.accept(Items.CRAB_ROE.get());
+                        output.accept(Items.RAW_VENISON.get());
+                        output.accept(Items.GRILLED_VENISON.get());
+                        output.accept(Items.RAW_VENISON_SLICE.get());
                     })
                     .build()
     );
